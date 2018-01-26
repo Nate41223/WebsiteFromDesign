@@ -1,0 +1,404 @@
+body {
+    background: #000;
+    margin: 0px;
+}
+#background {
+    position: relative;
+    background:url(../imgs/background.jpg) no-repeat;
+    height: 1400px;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#background header {
+    position: relative;
+    background:url(../imgs/header-background.png) no-repeat;
+    height: 135px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#background header h2 {
+    font-family: "Gotham", "Arial", sans-serif;
+    font-size: 22px;
+    position: absolute;
+    left: 108px;
+    top: 45px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+    margin: 0px;
+    text-shadow: 0px -1px 2px #000;
+}
+
+#background header h1 {
+    font-family: "Gotham", "Arial", sans-serif;
+    font-size: 49px;
+    position:absolute;
+    left: 108px;
+    top: 65px;
+    color: #efefef;
+    text-transform: uppercase;
+    margin: 0px;
+    text-shadow: 0px -1px 2px #000;
+}
+
+#background header h1 .four {
+    color: #92c7eb;
+}
+
+#logo {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    background:url(../imgs/logo-main.png);
+    height: 83px;
+    width: 84px;
+}
+
+#donatebutton {
+    position: absolute;
+    top: 40px;
+    right: 12px;
+    background:url(../imgs/donate-button.png);
+    height: 41px;
+    width: 85px;
+}
+
+#background li a {
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+    float: left;
+    padding: 8.5px 9.5px 8.5px 9.5px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #90abc0;
+}
+
+#background li {
+    margin-right: 
+}
+
+#background li a:hover {
+    color: #fff;
+    background-image: url(../imgs/menu-transparency.png);
+}
+
+#background ul {
+    position: relative;
+    margin: 0;
+    left: -10px;
+    top: 135px;
+    list-style: none;
+}
+
+#home {
+    background: rgba(255,255,255,0.1);
+    height: 691px;
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    top: 38px;
+    
+}
+
+#home div {
+    background: #000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 860px;
+    height: 651px;
+    border-radius: 5px;
+}
+
+#home img {
+    float: right;
+}
+
+#home div h1 {
+    position: absolute;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 18px;
+    font-weight:lighter;
+}
+
+#home div p {
+    position: absolute;
+    font-family: "Georgia", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 18px;
+    color: #cccccc;
+    font-weight:lighter;
+}
+
+#home div p .blue {
+    color: #5a92df;
+}
+
+#home div p .yellow {
+    color: #99771c;
+}
+
+#home h1:nth-child(2) {
+    margin-top: 96px;
+}
+
+#home h1:nth-child(4) {
+    margin-top: 286px;
+}
+#home h1:nth-child(6) {
+    margin-top: 476px;
+}
+#home p:nth-child(3) {
+    margin-right: 508px;
+    margin-top: 150px;
+}
+
+#home p:nth-child(5) {
+    margin-right: 303px;
+    margin-top: 340px;
+}
+#home p:nth-child(7) {
+    margin-right: 277px;
+    margin-top: 530px;
+}
+
+#donate {
+    background: rgba(255,255,255,0.1);
+    height: 439px;
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    top: 38px;
+    
+}
+
+#donate div {
+    background: #000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 860px;
+    height: 401px;
+    border-radius: 5px;
+}
+
+#donate img {
+    float: left;
+    margin-top: 45px;
+}
+
+#donate div h1 {
+    position: absolute;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 290px;
+    margin-top: 96px;
+    font-weight:lighter;
+}
+
+#donate div p {
+    position: absolute;
+    font-family: "Georgia", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 290px;
+    margin-top: 150px;
+    margin-right: 119px;
+    color: #cccccc;
+    font-weight:lighter;
+}
+
+#donate div p .blue {
+    color: #5a92df;
+}
+
+#donate div p .yellow {
+    color: #99771c;
+}
+
+#donate #paypal {
+    position: absolute;
+    bottom: 124px;
+    left: 290px;
+    background:url(../imgs/donate-paypal.png);
+    height: 40px;
+    width: 240px;
+}
+
+#donate #wepay {
+    position: absolute;
+    bottom: 64px;
+    left: 290px;
+    background:url(../imgs/donate-wepay.png);
+    height: 40px;
+    width: 240px;
+}
+
+
+#play {
+    background: rgba(255,255,255,0.1);
+    height: 919px;
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    top: 38px;
+    
+}
+
+#play div {
+    background: #000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 860px;
+    height: 881px;
+    border-radius: 5px;
+}
+
+#play div #form {
+    background: #321000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 513px;
+    margin-bottom: 20px;
+    width: 818px;
+    height: 349px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #99771c;
+}
+
+#play div #form form h3 {
+    position: absolute;
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9ad2ff;
+    margin: 3px 0px 0px 0px;
+}
+#play div #form form input {
+    position: absolute;
+    right:0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 20px;
+    width: 263px;
+    padding: 5px;
+}
+#play div #form form select {
+    position: absolute;
+    right:0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight:lighter;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 30px;
+    width: 273px;
+    padding-left: 10px;
+}
+#play div #form form {
+    position: relative;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 22px;
+    height: 48px;
+    border-bottom: 1px dashed #fff;
+}
+
+#submitbutton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background:url(../imgs/play-submitbutton.png);
+    height: 35px;
+    width: 79px;
+}
+
+#play img {
+    float: right;
+}
+
+#play div h1 {
+    position: absolute;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 18px;
+    font-weight:lighter;
+}
+
+#play div p {
+    position: absolute;
+    font-family: "Georgia", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 18px;
+    color: #cccccc;
+    font-weight:lighter;
+}
+
+#play div p .blue {
+    color: #5a92df;
+}
+
+#play div p .yellow {
+    color: #99771c;
+}
+
+#play h1:nth-child(2) {
+    margin-top: 56px;
+}
+
+#play h1:nth-child(4) {
+    margin-top: 326px;
+}
+#play h1:nth-child(6) {
+    margin-top: 436px;
+}
+#play p:nth-child(3) {
+    margin-right: 452px;
+    margin-top: 100px;
+}
+
+#play p:nth-child(5) {
+    margin-top: 370px;
+}
+#play p:nth-child(7) {
+    margin-top: 480px;
+}
